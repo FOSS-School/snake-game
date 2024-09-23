@@ -78,6 +78,7 @@ function drawGame() {
     if (snakeX < 0 || snakeX >= canvasSize || snakeY < 0 || snakeY >= canvasSize || collision(newHead, snake)) {
         clearInterval(game);
         alert('Game Over!');
+        confirm('Do you want to restart the game?') ? location.reload() : document.getElementById("restart").style.visibility = "visible";
         return;
     }
 
