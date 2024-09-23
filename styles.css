@@ -18,3 +18,14 @@ canvas {
 h1 {
     margin-bottom: 20px;
 }
+
+button{
+    visibility:hidden;
+    margin-top: 20px;
+    font-size: 1.7rem;
+    background-color: rgb(247, 58, 58);
+    color: white;
+    padding: 10px;
+    border: transparent;
+    border-radius: 8px;
+}
